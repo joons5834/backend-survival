@@ -1,26 +1,27 @@
-# The Beginning: Hypertext Transfer Protocol (HTTP)
+# What, Why and How of HTTP
 
 ## What is HTTP?
 
 MDN Web Docs' definition of HTTP is this:
+
 > Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML.
 
 Well, we could use a word-by-word explanation for this.
 
 ## Why HTTP?
 
-Out of this wordy definition, we first focus on the **"HTTP is a protocal for transmitting documents"** part of the definition. Then the question of 'Why HTTP?'  boils down to the question of "Why do you need a protocal for transmitting documents?".
+Out of this wordy definition, we first focus on the **"HTTP is a protocol for transmitting documents"** part of the definition. Then the question of 'Why HTTP?' boils down to the question of "Why do you need a protocol for transmitting documents?".
 
-Think of sending receiving letters between two parties living in different parts of the world. It is commonly shared rules about sending and receiving mail that make this system work in spite of differences in cultures and languages across the globe.
+Think of sending and receiving letters between two parties living in different parts of the world. It is commonly shared rules about sending and receiving mail that make this system work in spite of differences in cultures and languages across the globe.
 
 * Information about senders and receivers are written on the envelop.
   * The senders' information is written on the upper-left of the envelop.
-  * The receivers' infromation is written on the lower-right of the envelop.
+  * The receivers' information is written on the lower-right of the envelop.
 * The contents senders want to convey is inside the envelop.
 
 Likewise, we need a shared set of rules about the transmission of documents in order to transmit documents between programs that live in different OS'es and are written in different programming languages.
 
-## The nitty gritty
+## The nitty-gritty
 
 ### What not to focus on
 
@@ -35,10 +36,10 @@ We will also gloss over the actual content of the communication, the actual mess
 ### HTTP flow
 
 1. A server opens up a socket to receive requests. → Listen
-1. A client opens up a socket and request a connection to a server → Connect
-1. A server accepts a connection request before it opens up another socket for communication.  → Accept
-1. They exchange data through sockets. → Repetition of Send & Receive
-1. Sockets are closed after the communication. → Close
+2. A client opens up a socket and request a connection to a server → Connect
+3. A server accepts a connection request before it opens up another socket for communication. → Accept
+4. They exchange data through sockets. → Repetition of Send & Receive
+5. Sockets are closed after the communication. → Close
 
 ### HTTP request message
 
@@ -52,7 +53,7 @@ Host: example.com
 
 ```
 
-**GET**  is a type of HTTP method.
+**GET** is a type of HTTP method.
 
 #### HTTP methods
 
@@ -105,7 +106,7 @@ See [Section 3 of RFC-7230](https://datatracker.ietf.org/doc/html/rfc7230#sectio
 * ,which means clients have to tell servers who they are every time they send requests.
   * cookie: a piece of information that keeps exchanged between a client and a server
     1. A server sends a cookie to a client.
-    1. A client(web browser) may keep the cookie.
-    1. The client may send the cookie back to the server every time it requests to the same server.
+    2. A client(web browser) may keep the cookie.
+    3. The client may send the cookie back to the server every time it requests to the same server.
   * session: data is saved on the server and its key is stored in a cookie
   * Nowadays, it is more efficient to use Web Storage API or IndexedDB to store and manage data client-side since cookies are sent with every request.
