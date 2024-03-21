@@ -32,6 +32,14 @@ Wikipedia says an application layer is an abstraction layer that specifies the s
 
 We will also gloss over the actual content of the communication, the actual message kept inside the envelop. A hypermedia document is another fancy word meaning a document that contains graphics, audio, video, plain text and hyperlinks.
 
+### HTTP flow
+
+1. A server opens up a socket to receive requests. → Listen
+1. A client opens up a socket and request a connection to a server → Connect
+1. A server accepts a connection request before it opens up another socket for communication.  → Accept
+1. They exchange data through sockets. → Repetition of Send & Receive
+1. Sockets are closed after the communication. → Close
+
 ### HTTP request message
 
 HTTP was originally designed for communication between web browsers and web servers. Web broswers request information and web servers respond with requested information.
@@ -90,3 +98,14 @@ Content-Type: text/html
 There is a blank line between headers and a response body(actual content).
 
 See [Section 3 of RFC-7230](https://datatracker.ietf.org/doc/html/rfc7230#section-3) for details on HTTP message format.
+
+### HTTP is stateless
+
+* There is no link between two requests carried out in the same connection
+* ,which means clients has to tell a server who they are every time they send requests.
+  * cookie: a piece of information that keeps exchanged between a client and a server
+    1. A server sends a cookie to a client.
+    1. A client(web browser) may keep the cookie.
+    1. The client may send the cookie back to the server every time it requests to the same server.
+  * session: data is saved on the server and its key is stored in a cookie
+  * Nowadays, it is more efficient to use Web Storage API or IndexedDB to store and manage data client-side since cookies are sent with every request.
