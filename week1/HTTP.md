@@ -4,6 +4,7 @@
 
 MDN Web Docs' definition of HTTP is this:
 > Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML.
+
 Well, we could use a word-by-word explanation for this.
 
 ## Why HTTP?
@@ -37,9 +38,11 @@ HTTP was originally designed for communication between web browsers and web serv
 
 The following is a simple example of HTTP request.
 
-> GET / HTTP/1.1
-> Host: example.com
->
+```HTTP
+GET / HTTP/1.1
+Host: example.com
+
+```
 
 **GET**  is a type of HTTP method.
 
@@ -61,16 +64,18 @@ Note the blank line after the header.
 
 ### HTTP response message
 
-> HTTP/1.1 200 OK
-> Date: Sat, 09 Oct 2010 14:28:02 GMT
-> Server: Apache
-> Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
-> ETag: "51142bc1-7449-479b075b2891b"
-> Accept-Ranges: bytes
-> Content-Length: 29769
-> Content-Type: text/html
->
-> <!DOCTYPE html>… (here come the 29769 bytes of the requested web page)
+```HTTP
+HTTP/1.1 200 OK
+Date: Sat, 09 Oct 2010 14:28:02 GMT
+Server: Apache
+Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+ETag: "51142bc1-7449-479b075b2891b"
+Accept-Ranges: bytes
+Content-Length: 29769
+Content-Type: text/html
+
+<!DOCTYPE html>… (here come the 29769 bytes of the requested web page)
+```
 
 **200** is HTTP status code
 
