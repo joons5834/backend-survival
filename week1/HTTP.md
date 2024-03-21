@@ -102,7 +102,7 @@ See [Section 3 of RFC-7230](https://datatracker.ietf.org/doc/html/rfc7230#sectio
 ### HTTP is stateless
 
 * There is no link between two requests carried out in the same connection
-* ,which means clients has to tell a server who they are every time they send requests.
+* ,which means clients have to tell servers who they are every time they send requests.
   * cookie: a piece of information that keeps exchanged between a client and a server
     1. A server sends a cookie to a client.
     1. A client(web browser) may keep the cookie.
