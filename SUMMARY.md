@@ -1,12 +1,9 @@
+
 ‌# Table of contents
 
-## GitBook
+## Week 1 - HTTP
 
-* [Git Book 가이드](README.md)
-
-* [GitHub과 연동하기](/integration/integration-with-github.md)
-  * [PR 날리기](/integration/pull-request.md)
-
-## 효과적인 학습법
-
-* [미라클 모닝](miracle-morning.md)
+* [Week1 Intro.](week1/README.md)
+* [What, Why and How of HTTP](week1/HTTP.md)
+* [Building a simple HTTP Client](week1/HTTP_client.md)
+* [Building a simple HTTP Server](week1/HTTP_server.md)

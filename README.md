@@ -1,6 +1,5 @@
----
-description: Git Book을 적극 활용해보자
----
+# Survival Course For Backend Developers
 
-# Git Book 가이드
+## What is this about?
 
+- This contains notes from Survival Training Course For Backend Developers
