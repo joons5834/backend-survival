@@ -1,10 +1,10 @@
-# Week2: REST API
+# Week2 Intro.
 
 ## Learning objectives
 
 * Understand API and REST
 * Design API endpoints using collection pattern
-* Build a simple API server that is somewhat RESTful and adheres to collection pattern.
+* Build a simple API server that is somewhat RESTful and adheres to the Collection Pattern.
 
 ## Table of Contents
 
