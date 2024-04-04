@@ -14,3 +14,10 @@
 * [Week2 Intro.](week2/README.md)
 * [What Is REST API?](week2/REST.md)
 * [Collection pattern](week2/collection_pattern.md)
+
+## Week 3 - DTO & JSON & CORS
+
+* [Week3 Intro.](week3/README.md)
+* [DTO](week3/DTO.md)
+* [Serialization](week3/serialization.md)
+* [CORS](week3/CORS.md)
