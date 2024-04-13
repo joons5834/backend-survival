@@ -21,3 +21,8 @@
 * [DTO](week3/DTO.md)
 * [Serialization](week3/serialization.md)
 * [CORS](week3/CORS.md)
+
+## Week 4 - Layered Architecture
+
+* [Week4 Intro.](week4/README.md)
+* [Layered Architecture](week4/layered_architecture.md)
