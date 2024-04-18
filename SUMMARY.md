@@ -26,3 +26,9 @@
 
 * [Week4 Intro.](week4/README.md)
 * [Layered Architecture](week4/layered_architecture.md)
+
+## Week 5 - DI & Spring Test
+
+* [Week4 Intro.](week5/README.md)
+* [Dependency Injection](week5/dependency_injection.md)
+* [Test](week5/test.md)
