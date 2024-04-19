@@ -264,3 +264,13 @@ class PostControllerTest {
   }
 }
 ```
+
+## TDD (Test Driven Development)
+
+TDD is a development methodology where test codes are written first before working codes are written and developers tap into what they learn from the process.
+
+### TDD Cycle
+
+1. Red -> Write a test code that fails
+2. Green -> Have your code pass the tests as quickly as posssible
+3. Refactor -> Refactor your code. The most important part of TDD that is often overlooked.
