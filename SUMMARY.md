@@ -32,3 +32,8 @@
 * [Week4 Intro.](week5/README.md)
 * [Dependency Injection](week5/dependency_injection.md)
 * [Test](week5/test.md)
+
+## Week 6 - Database
+
+* [Week4 Intro.](week6/README.md)
+* [Database and Data Model](week6/database_and_data_model.md)
