@@ -35,5 +35,5 @@
 
 ## Week 6 - Database
 
-* [Week4 Intro.](week6/README.md)
+* [Week6 Intro.](week6/README.md)
 * [Database and Data Model](week6/database_and_data_model.md)
