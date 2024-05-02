@@ -37,3 +37,9 @@
 
 * [Week6 Intro.](week6/README.md)
 * [Database and Data Model](week6/database_and_data_model.md)
+
+## Week 7 - JPA
+
+* [Week7 Intro.](week7/README.md)
+* [ORM and JPA](week7/orm_jpa.md)
+* [Hibernate and Spring Data JPA](week7/hibernate_spring_data_jpa.md)
