@@ -43,3 +43,8 @@
 * [Week7 Intro.](week7/README.md)
 * [ORM and JPA](week7/orm_jpa.md)
 * [Hibernate and Spring Data JPA](week7/hibernate_spring_data_jpa.md)
+
+## Week 8 - Domain Driven Design
+
+* [Week8 Intro.](week8/README.md)
+* [Domain Driven Design](week8/domain_driven_design.md)
