@@ -84,7 +84,7 @@
 
 ### Aggregate
 
-* Just as we drive 'a car' as whole rather than controlling each individual part such as tires and an engine,
+* Just as we drive 'a car' as a whole rather than control each individual part such as tires and an engine,
 * Using an aggregate instead of using entities or value objects is advisable
   * Invariants are contraints that need to be met
   * It helps to keep aggregate-wide invariants,maintaining integrity and consistency
