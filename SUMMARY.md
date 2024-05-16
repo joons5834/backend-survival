@@ -48,3 +48,9 @@
 
 * [Week8 Intro.](week8/README.md)
 * [Domain Driven Design](week8/domain_driven_design.md)
+
+## Week 9 - Hexagonal Architecture
+
+* [Week 9 Intro.](week9/README.md)
+* [SOLID](week9/SOLID.md)
+* [Hexagonal Architecture](week9/hexagonal_architecture.md)
