@@ -54,3 +54,8 @@
 * [Week 9 Intro.](week9/README.md)
 * [SOLID](week9/SOLID.md)
 * [Hexagonal Architecture](week9/hexagonal_architecture.md)
+
+## Week 10 - Spring Security
+
+* [Week 10 Intro.](week10/README.md)
+* [Application-level security](week10/application-level_security.md)
