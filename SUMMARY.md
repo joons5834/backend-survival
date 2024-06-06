@@ -64,3 +64,8 @@
 
 * [week 11 Intro.](/week11/README.md)
 * [File Upload](/week11/file-upload.md)
+
+## Week 12 - CQRS
+
+* [week 12 Intro.](/week12/README.md)
+* [CQRS](/week12/CQRS.md)
